@@ -26,6 +26,7 @@ fun main() {
     formacao.matricular(usuario2)
     
     println("--- ${formacao.nome} ---")
+    println(formacao.nivel)
     println("Conteudo Programático:")
     for (c in formacao.conteudos)
     	println(c)
